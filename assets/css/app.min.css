@@ -10183,4 +10183,57 @@ input:-webkit-autofill:focus {
 .blog-card p {
   font-family: "Poppins", sans-serif;
 }
+
+.stat-text {
+  text-transform: uppercase;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10.6223px;
+  line-height: 18px;
+  /* identical to box height, or 167% */
+
+  letter-spacing: 0.885194px;
+  text-transform: uppercase;
+
+  color: #a2aaaf !important;
+}
+.stat-value {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px !important;
+  line-height: 31px;
+  text-align: left;
+  /* identical to box height, or 156% */
+
+  /* Black/B100 */
+
+  color: #171717 !important;
+}
+.stat-sub-value {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #2a2c31 !important;
+}
+.cash-symbol {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  /*line-height: 31px;*/
+  /* identical to box height, or 156% */
+
+  /* Black/B100 */
+
+  color: #a2aaaf !important;
+}
+.cash-value.stat-value {
+  font-size: 20px !important;
+}
 /*# sourceMappingURL=app.min.css.map */
