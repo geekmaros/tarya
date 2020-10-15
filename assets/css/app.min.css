@@ -3541,7 +3541,26 @@ a.ui-button:active,
   vertical-align: middle;
   border-color: #eaf0f7;
 }
+.table .text-primary {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 21px;
+  /* identical to box height, or 179% */
+
+  color: #14929c !important;
+}
+
 .table td {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px !important;
+  line-height: 21px;
+  /* identical to box height, or 179% */
+
+  color: #2a2c31 !important;
   font-weight: 400;
   vertical-align: middle;
   border-color: #eaf0f7;
@@ -3560,9 +3579,14 @@ a.ui-button:active,
   background-color: #f1f5fa;
 }
 .table .thead-light th {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px !important;
+  line-height: 21px;
+  /* identical to box height, or 179% */
+
   color: #303e67;
-  background-color: #f1f5fa;
-  border-color: #eaf0f7;
 }
 .table.table-dark {
   color: #f8f8fc;
@@ -10235,5 +10259,20 @@ input:-webkit-autofill:focus {
 }
 .cash-value.stat-value {
   font-size: 20px !important;
+}
+.view-members {
+  background: #f1f5fa;
+  border-radius: 6px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height, or 153% */
+
+  text-align: center;
+
+  color: #2a2c31;
 }
 /*# sourceMappingURL=app.min.css.map */
