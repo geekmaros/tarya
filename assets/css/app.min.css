@@ -10322,4 +10322,110 @@ input:-webkit-autofill:focus {
 
   color: #171717;
 }
+.table-view.confirmed {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.2957px;
+  line-height: 17px;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #e9ebf2;
+  border-radius: 6px;
+  color: #a2aaaf;
+}
+.table-view.confirmed:hover {
+  background: #a2aaaf;
+  border: 1px solid #e9ebf2;
+  border-radius: 6px;
+  color: #fff;
+}
+.table-view {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14.2957px;
+  line-height: 17px;
+  width: 100%;
+  background: #303e67;
+  border-radius: 6px;
+  color: #ffffff;
+}
+
+.table-view:hover {
+  color: #ffffff;
+  background: #303e67;
+  opacity: 0.8;
+}
+.table-status.pending {
+  background: rgba(255, 177, 107, 0.21);
+  border-radius: 6px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  color: #ffb16b;
+}
+.table-status.pending:hover {
+  background: rgba(255, 177, 107, 0.21);
+  color: #ffb16b;
+  opacity: 0.8;
+}
+
+.table-status.approved {
+  background: rgba(106, 214, 183, 0.24);
+  border-radius: 6px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  color: #46d1a9;
+}
+.table-status.approved:hover {
+  background: rgba(106, 214, 183, 0.24);
+  color: #46d1a9;
+  opacity: 0.8;
+}
+
+.table-status.confirmed {
+  background: rgba(106, 214, 183, 0.24);
+  border-radius: 6px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  color: #46d1a9;
+}
+.table-status.confirmed:hover {
+  background: rgba(106, 214, 183, 0.24);
+  color: #46d1a9;
+  opacity: 0.8;
+}
+
+.table-status.declined {
+  background: rgba(232, 97, 97, 0.28);
+  border-radius: 6px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  color: #e86161;
+}
+.table-status.declined:hover {
+  background: rgba(232, 97, 97, 0.28);
+  color: #e86161;
+  opacity: 0.8;
+}
 /*# sourceMappingURL=app.min.css.map */
