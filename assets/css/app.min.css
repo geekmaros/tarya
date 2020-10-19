@@ -3540,6 +3540,7 @@ a.ui-button:active,
   font-weight: 500;
   vertical-align: middle;
   border-color: #eaf0f7;
+  background-color: #f1f5fa;
 }
 .table .text-primary {
   font-family: Inter;
@@ -6074,22 +6075,29 @@ hr.hr-dashed {
 .title-text,
 .header-title {
   margin-bottom: 8px;
-  text-transform: capitalize;
-  letter-spacing: 0.02em;
-  font-size: 15px;
-  font-weight: 500;
-  margin-top: 0;
-  color: #303e67;
-  text-shadow: 0 0 1px rgba(241, 245, 250, 0.1);
-  font-family: "Roboto", sans-serif;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height, or 134% */
+  /* Black/B100 */
+  color: #171717;
 }
 .page-title-box {
   padding: 25px 0;
 }
 .page-title-box .page-title {
-  font-size: 18px;
-  margin: 0;
-  color: #303e67;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  /* identical to box height, or 134% */
+
+  /* Black/B100 */
+
+  color: #171717;
 }
 .page-title-box .breadcrumb {
   font-size: 13px;
@@ -10281,6 +10289,37 @@ input:-webkit-autofill:focus {
   font-weight: bold;
   font-size: 22px;
   line-height: 30px;
+  color: #171717;
+}
+#shows {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  text-align: center;
+  letter-spacing: -0.2px;
+
+  /* Gray/G100 */
+
+  color: #8f92a1 !important;
+}
+.when {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  cursor: pointer;
+  /* identical to box height, or 171% */
+
+  text-align: center;
+  letter-spacing: -0.2px;
+
+  /* Black/B100 */
+
   color: #171717;
 }
 /*# sourceMappingURL=app.min.css.map */
